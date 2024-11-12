@@ -1,5 +1,9 @@
 {
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    "onCreateCommand": "date >> onCreateCommand.txt",
+    "updateContentCommand": "date >> updateContentCommand.txt",
+    "postCreateCommand": "date >> postCreateCommand.txt",
+    "postStartCommand": "date >> postStartCommand.txt"
 }
