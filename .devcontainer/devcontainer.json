@@ -1,7 +1,5 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "image": "codercom/enterprise-minimal:ubuntu",
     "onCreateCommand": "date >> onCreateCommand.txt",
     "updateContentCommand": "date >> updateContentCommand.txt",
     "postCreateCommand": "date >> postCreateCommand.txt",
